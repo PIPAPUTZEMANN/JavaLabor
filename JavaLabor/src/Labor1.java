@@ -7,7 +7,7 @@ public class Labor1 {
 	
 		System.out.println("Los gehts");
 		System.out.println(myFirstVariable);
-
+		System.out.println("TEST");
 	}
 
 }
