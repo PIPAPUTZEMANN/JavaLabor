@@ -26,15 +26,12 @@ public class Achterbahn {
 			if((Koerpergroese >= 145 && Koerpergroese <= 205) && (nuechtern)){
 			
 			return true;
-			
+			//alter Fehler beheben
 		}
 		
 		}
 		
-	
 		return false;
 	}
 	
-	
-	//test
 }
