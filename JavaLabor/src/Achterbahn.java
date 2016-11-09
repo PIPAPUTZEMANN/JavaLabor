@@ -5,7 +5,7 @@ public class Achterbahn {
 		
 		Achterbahn achterbahn=new Achterbahn();
 		
-		achterbahn.alter=1;
+		achterbahn.alter=16;
 		achterbahn.Koerpergroese=145;
 		achterbahn.mitEltern=true;
 		achterbahn.nuechtern=true;
@@ -22,13 +22,11 @@ public class Achterbahn {
 	
 	boolean einlasskontrolle(){
 		
-		if(alter >= 16 || (alter <= 12 && mitEltern)){
-			if((Koerpergroese >= 145 && Koerpergroese <= 205) && (nuechtern)){
+		if((alter >= 16 || (alter >= 12 && mitEltern)) && (Koerpergroese >= 145 && 			Koerpergroese <= 205) && (nuechtern)){
+		
 			
 			return true;
-			//alter Fehler beheben
-		}
-		
+
 		}
 		
 		return false;
